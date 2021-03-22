@@ -7,7 +7,7 @@ int Order_search(int T[], int n, int x) {
 			return i;
 		}
 	}
-	return -1;
+	return 0;
 }
 
 int main(){

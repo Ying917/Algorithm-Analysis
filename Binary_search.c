@@ -18,7 +18,7 @@ int Binary_search(int T[], int n, int x) {
 			}
 		}
 	}
-	return -1;
+	return 0;
 }
 
 int main(){
