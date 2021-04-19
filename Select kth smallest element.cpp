@@ -57,7 +57,7 @@ void Select(vector<int> S,int n,int k) {
 				S2.push_back(temp[j]);
 		}
 
-		//该组个数为5个，且该组中位数大于m*时，m*不存入S1或S2，直接丢弃
+		//该组个数为5个，且该组中位数等于m*时，m*不存入S1或S2，直接丢弃
 		else{
 			for(int j = i; j < i+2; j++)
 				//该组内中位数等于m*，则位于中位数前的元素一定小于m*
